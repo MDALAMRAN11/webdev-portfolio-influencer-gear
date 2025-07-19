@@ -1,0 +1,132 @@
+
+header>section, main > section{
+    width: 96vw;
+    margin: 10vw auto;
+}
+header .first-nav {
+    margin-top: 0;
+}
+main .first-main, main .second-main {
+    width: 85vw;
+    margin: 10vh auto;
+}
+header .second-nav {
+    margin-top: 13vh;
+}
+/*all-shared-styles*/
+.display-flex{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font-vsm {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.font-sm{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #3A3A3A;
+}
+.font-m{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.font-l{
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.font-vl{
+    font-size: 3.1rem;
+    font-weight: 900;
+    color: #3A3A3A;
+}
+.btn-primary {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 3rem;
+}
+
+
+
+/*header-sections*/
+/*first-nav*/
+.first-nav .right-nav {
+    width: 26rem;
+}
+.first-nav .right-nav ul li{
+    list-style: none;
+}
+.first-nav .right-nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+/*second*/
+.second-nav > div {
+    flex: 1;
+}
+.second-nav .right-side {
+    justify-content: center;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 30rem 30rem;
+}
+
+
+/*Main*/
+/*second main*/
+.second-main .all-cards img {
+    width: 100%;
+}
+.second-main .all-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+}
+
+.second-main .card-container{
+    width: 20rem;
+    height: 29rem;
+    box-shadow: 4px 4px 10px gray;
+    margin: auto;
+}
+
+.second-main .all-cards .card-values {
+    width: 17rem;
+    height: 36rem;
+    margin: 1rem auto;
+}
+.second-main .all-cards .card-container .card-values img {
+    margin: 1rem auto;
+}
+/*third main*/
+.third-main{
+    justify-content: space-evenly;
+}
+
+/*footer*/
+footer {
+    background-color: #0a0826;
+    height: 100%;
+    width: 100%;
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+footer div .icons i {
+    margin: 1.5rem 1rem;
+}
+
+
+/*mobile responsiv*/
