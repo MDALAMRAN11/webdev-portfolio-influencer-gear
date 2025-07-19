@@ -130,3 +130,45 @@ footer div .icons i {
 
 
 /*mobile responsiv*/
+@media screen and (max-width: 575px) {
+    header .first-nav, header .second-nav, .third-main {
+        flex-direction: column;
+    }
+    .first-main .all-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .second-main .all-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+header .second-nav {
+    margin-top: 0;
+}
+.second-main .card-container {
+    width: 90vw;
+}
+}
+
+@media screen and (min-width: 575.1px) and (max-width: 992px) {
+    header .first-nav, header .second-nav , .third-main{
+        flex-direction: column;
+    }
+    .first-nav .right-nav {
+    width: 90vw;
+}
+header .second-nav {
+    margin-top: 0;
+}
+.first-main .all-logos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .second-main .all-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.third-main .div-left img {
+    width: 90vw;
+}
+}
